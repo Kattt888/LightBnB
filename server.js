@@ -65,12 +65,11 @@ app.get('/test-add-user', (req, res) => {
   };
   db.addUser(newUser).then(user => {
     res.json(user); // Send back the newly created user object
-  }).catch(err => {
+}).catch(err => {
     console.error('Error adding user:', err);
     res.status(500).send('Internal server error');
   });
 });
-
 
 app.listen(port, (err) => {
   console.log(err || `listening on port ${port} 😎`);
