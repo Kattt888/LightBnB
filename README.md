@@ -1,4 +1,4 @@
-#LightBnB 🏠
+# LightBnB 🏠
 
 LightBnB is a full-stack web app that powers an online accommodation platform similar to Airbnb. Built as part of the Lighthouse Labs Web Development Bootcamp, the focus of this project was mastering PostgreSQL, complex SQL queries, and integrating them into a Node.js + Express backend to serve a functional web client.
 
